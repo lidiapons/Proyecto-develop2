@@ -33,8 +33,14 @@ html {
     font-weight: 700px;
     letter-spacing: 0.06em;
  }
+ .sticky{
+   position: sticky;
+   top: 0;
+   z-index: 1;
+ }
  .layout {
     background-color: #1a1d24;
+
  }
  .barrita {
    color: #a8a8a8;
@@ -152,9 +158,16 @@ html {
    position: relative;
    height: 300px;
    object-fit: cover;
-   background: linear-gradient(
-   rgba(0,0,0,0.4),
-   rgba(0,0,0,0.4));
+}
+.film article::before{
+   content: "";
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   position: absolute;
+   background:linear-gradient(1deg, black, transparent);
+   z-index: 3;
 
 }
 .texto {
@@ -182,7 +195,7 @@ html {
 }
 .samurai .derecha {
    position: absolute;
-   margin: 10em 1.2em 0 50em;
+   margin: 10em 1.2em 0 60em;
 }
 .samurai1 p {
    text-transform: uppercase;
@@ -203,7 +216,7 @@ html {
    margin:0.8em 0;
 }
 .samurai p{
-   color:#a8a8a8;
+   color:#737373;
    margin:0.6em 0;
 }
 .samurai1 p::before{
@@ -258,7 +271,6 @@ html {
 .pequeño{
    font-size: 12px;
    color:#a8a8a8;
-
 }
 .fondo {
    background-color:#e0011a;
@@ -279,8 +291,24 @@ html {
 .rojo img{
    border-radius: 50% 50%;
 }
+
 blockquote {
    text-align: center;
+}
+blockquote > q{
+   display: block;
+   margin-top: 35px;
+}
+blockquote > b{
+   display: block;
+   margin-top: 35px;
+   font-size: 13px;
+   font-weight: bold;
+   letter-spacing: 1px;
+}
+blockquote > span{
+   margin-top: 35px;
+   font-size: 11px;
 }
 .foto {
    display: inline-block;
@@ -514,4 +542,4 @@ blockquote {
 
 /* (4 fotos) display: grid; grid template clumns: repeat (4,150px); grid template rows: repeat(2, 200px)
 /*filter: brightness(0.6);*/
-
+/*etiqueta html scroll-behavior:smooth*/
