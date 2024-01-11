@@ -130,7 +130,7 @@ html {
     background-color: red;
     border-color: black;
     border: 2px;
-    border-radius: 10%;
+    border-radius: 15% 15%;
     color: white;
     padding: 5px;
     justify-content: center;
@@ -172,7 +172,12 @@ html {
         margin-top: 5px;
         margin-bottom: 5px;
 }
-.foto img{
+.colum img{
+    border-radius: 50% 50%;
+    width: 150px;
+    height: 150px;
+}
+.columblack img{
     border-radius: 50% 50%;
     width: 150px;
     height: 150px;
@@ -180,12 +185,15 @@ html {
 .foto{
     display: flex;
 }
-.foto .nombre{
+.fotodos{
+    display: flex;
+}
+.colum .nombre{
     align-items: center;
     justify-content: center;
     display: block;
-
 }
+
 .columna{
     max-width: 1200px;
     display: block;
@@ -193,12 +201,174 @@ html {
     justify-content: center;
     margin-inline: auto;
     margin-top: 50px;
+   
 
 }
 .columna h1{
     font-size: 45px;
     font-weight: bold;
     font-family: "Roboto Condensed",sans-serif;
-    padding: 0 0 40px 0;
+    padding: 0px 0 40px 0;
+}
+.grupo{
+    display: flex;
+    max-width: 1200px;
+    margin-inline: auto;
+    position: relative;
+}
+.caja{
+    position: relative;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+.proximo{
+    display: block;
+    background-color: grey;
+    max-width: 400px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 
 }
+
+.proximo article{
+    display: block;
+    gap: 25px;
+    margin-bottom: 25px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.proximo img{
+    width: 100px;
+    height: 100px;
+}
+.proximo h1{
+    padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Roboto Condensed",sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #1a1d24;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    color: white;
+    fill: white;
+    max-width: 1200px;
+    margin-inline: auto;
+    background-color: #1a1d24;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 14px;
+    font-weight: 700px;
+    letter-spacing: 0.06em;
+    position: relative;
+ }
+ .footer svg{
+    width: 20px;
+    height: 20px;
+ }
+ .footer p{
+    color: #a8a8a8;
+ }
+ .logo{
+    display: block;
+ }
+ .logo p{
+    margin: 30px auto;
+ }
+ .footer h1{
+    font-weight: bold;
+    font-size: 15px;
+ }
+ .footer h1::after{
+    content:""; 
+    width: 29px; 
+    height: 1.1px; 
+    background-color:#e0041d ;
+    display:inline;
+    position: absolute;
+    margin-top: 0.5em;
+    margin-left: 0.8em;
+ }
+ .footer a{
+    color: #a8a8a8;
+    line-height: 3em;
+ }
+ .movies{
+    display: block;
+ }
+ .newsletter .redes{
+    display: flex;
+    margin-top: 20%;
+ }
+ .footer div{
+    display: inline;
+    margin-top: 15%;
+ }
+ .fondofooter{
+    background-color: #1a1d24;
+ }
+ .cosas svg{
+    height: 20px;
+    width: 20px;
+    display:block;
+    padding: 20px;
+    background-color: #e0041d;
+    background-size: 30px;
+    margin-top: 4px;
+ 
+ } 
+ .cosas{
+   position: fixed;
+   right: 0;
+   bottom: 550px;
+ }
+ input > src{
+    height: 20px;
+    width: 20px;
+ 
+ }
