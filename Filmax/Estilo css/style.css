@@ -136,6 +136,9 @@ html {
    margin-left: 10px;
    fill: red;
 }
+.flecha a:hover{
+   color: #e0011a;
+}
 .menu {
    background-color: #1a1d24;
    margin-inline: auto;
@@ -160,28 +163,68 @@ html {
    margin-top: -120px;
    position: relative;
 }
-.film article img {
-   position: relative;
-   height: 300px;
-   object-fit: cover;
-}
-.film article img::before{
-   content: "";
-   top: 0;
-   left: 0;
-   bottom: 0;
-   right: 0;
-   position: absolute;
-   background: linear-gradient(to top,rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 35%);
-   opacity: 0.4;
-   z-index: 1;
 
+.happy{
+   width: 280px;
+   height: 280px;
+   background-image:linear-gradient(to top,
+   rgba(0,0,0,0.8),
+   transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-20-copyright.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+
+}
+.gotham{
+   width: 280px;
+   height: 280px;
+   background-image:linear-gradient(to top,
+   rgba(0,0,0,0.8),
+   transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-21-copyright.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+}
+.homecoming{
+   width: 280px;
+   height: 280px;
+   background-image:linear-gradient(to top,
+   rgba(0,0,0,0.8),
+   transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-22-copyright.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+}
+.stranger{
+   width: 280px;
+   height: 280px;
+   background-image:linear-gradient(to top,
+   rgba(0,0,0,0.8),
+   transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-17-copyright.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+}
+.the{
+   width: 280px;
+   height: 280px;
+   background-image:linear-gradient(to top,
+   rgba(0,0,0,0.8),
+   transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-18-copyright.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
 }
 .texto {
    position: absolute;
-   margin-top: -50px;
+   margin-top:230px;
    margin-left: 15px;
-   color:white
+   color:rgb(255, 255, 255);
 }
 .texto h3 {
    text-transform: uppercase;
@@ -208,6 +251,7 @@ html {
    text-transform: uppercase;
    color:#a8a8a8;
    font-weight: bold;
+   font-size: 13px;
 }
 .samurai1 h3 {
    text-transform: uppercase;
@@ -221,6 +265,7 @@ html {
    gap: 30px;
    font-weight: bold;
    margin:0.8em 0;
+   font-size: 13px;
 }
 .samurai p{
    color:#737373;
@@ -245,19 +290,78 @@ html {
    display: flex;
    position: relative;
 }
+.in{
+   width: auto;
+   height: 600px;
+   background-image:linear-gradient(to top,
+   rgba(0,0,0,0.8),
+   transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-27-copyright-842x1024.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+}
+.ban{
+   width: auto;
+   height: 600px;
+   background-image:linear-gradient(to top,
+   rgba(0,0,0,0.8),
+   transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-25-copyright-842x1024.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+}
+.gla{
+   width: auto;
+   height: 600px;
+   background-image:linear-gradient(to top,
+   rgba(0,0,0,0.8),
+   transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-29-copyright-1024x682.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+}
+.pir{
+   width: auto;
+   height: 600px;
+   background-image:linear-gradient(to top,
+   rgba(0,0,0,0.8),
+   transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-23-copyright-485x665.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+
+}
 .inferno > article {
    width: 25%;
    position: relative;
 }
-.inferno > article img {
-   height: 100%;
-   object-fit: cover;
+.inferno article:hover .efecto{
+   bottom: -20px;
+   opacity: 1;
 }
+.inferno article:hover .textoinferno{
+   bottom:120px;
+}
+   
 .textoinferno {
    position: absolute;
-   margin-top: -90px;
-   margin-left: 15px;
-   color:white
+   bottom: 90px;
+   left: 20px;
+   color:white;
+   transition: all 0.3s;
+}
+.efecto{
+   opacity: 0;
+   bottom: -40px;
+   position: relative;
+   transition: all 0.5s;
+   text-transform: uppercase;
+   font-size: 11px;
+   font-weight: bold;
 }
 .inferno h3 {
    text-transform: uppercase;
@@ -294,6 +398,7 @@ html {
    gap: 60px;
    font-size:20px;
    position: relative;
+   overflow: hidden;
 }
 .rojo img{
    border-radius: 50% 50%;
@@ -320,6 +425,8 @@ blockquote > span{
 .foto {
    display: inline-block;
    text-align: center;
+   width: 400px;
+   flex: 0 0 385px;
 }
 .mosaico {
    background: white;
@@ -407,6 +514,7 @@ blockquote > span{
    position: absolute;
    padding: 25px;
    margin-top: 480px;
+
 }
 .item-2{
    background-image: linear-gradient(
@@ -574,3 +682,16 @@ input > src{
 /* (4 fotos) display: grid; grid template clumns: repeat (4,150px); grid template rows: repeat(2, 200px)
 /*filter: brightness(0.6);*/
 /*etiqueta html scroll-behavior:smooth*/
+/*html (cursor) -pointer, text
+poner anclas
+transition-duration:
+transition-property
+
+opacity de 0 a 1 INFERNO y bottom
+Hover en la caja entera,  
+
+aspect-radio:1
+objet-fit:cover
+
+left: 50%
+transform: translateX(-50%)*/
