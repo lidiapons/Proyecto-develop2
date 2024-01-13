@@ -49,11 +49,70 @@ html {
     width: 20px;
     height: 20px;
  }
- .header ul {
+ .header ul{
     display: flex;
     gap: 20px;
     font-weight: bold;
  }
+.principal .home::after{
+   content:""; 
+   width: 0%; 
+   height: 0px; 
+   background-color: red;
+   display: block;
+   position: relative;
+   top: 13px;
+   transition-property: all;
+   }
+   .features::after{
+   content:""; 
+   width: 0%; 
+   height: 0px; 
+   background-color: red;
+   display: block;
+   position: relative;
+   top: 13px;
+   }
+   .about::after{
+   content:""; 
+   width: 0%; 
+   height: 0px; 
+   background-color: red;
+   display: block;
+   position: relative;
+   top: 13px;
+   }
+   .news2::after{
+   content:""; 
+   width: 0%; 
+   height: 0px; 
+   background-color: red;
+   display: block;
+   position: relative;
+   top: 13px;
+   }
+   .contact2::after{
+   content:""; 
+   width: 0%; 
+   height: 0px; 
+   background-color: red;
+   display: block;
+   position: relative;
+   top: 13px;
+   }
+ 
+.principal:hover .home::after{
+content:""; 
+width: 100%; 
+height: 0.3px;
+background-color: red;
+display: block;
+position: relative;
+top: 13px;
+}
+
+
+
  .redes {
     display: flex;
     gap:20px
@@ -150,8 +209,19 @@ html {
    height: 80px;
    align-items: center;
    font-weight: bold
+   }
+   .most{
+      opacity: 0.5;
+   }
+   .best{
+      opacity: 0.5;
+   }
+.most:hover{   
+   opacity: 1;
 }
-
+.best:hover{
+   opacity: 1;
+}
 .film {
    display: flex;
    max-width: 1200px;
@@ -284,6 +354,25 @@ html {
    text-transform: uppercase;
    gap: 30px;
    font-weight: bold;
+   font-size: 15px;
+   position: relative;
+   bottom: -30px;
+}
+.fle{
+   fill: red;
+   color: red;
+   display: flex;
+   gap: 15px;
+}
+.watch{
+   fill:black;
+   color: black;
+   display: flex;
+   gap: 10px;
+}
+.watch:hover{
+   fill:red;
+   color:red;
 }
 
 .inferno{
@@ -340,11 +429,11 @@ html {
    position: relative;
 }
 .inferno article:hover .efecto{
-   bottom: -20px;
+   bottom: -50px;
    opacity: 1;
 }
 .inferno article:hover .textoinferno{
-   bottom:120px;
+   bottom:140px;
 }
    
 .textoinferno {
@@ -356,13 +445,24 @@ html {
 }
 .efecto{
    opacity: 0;
-   bottom: -40px;
+   bottom: -80px;
    position: relative;
    transition: all 0.5s;
    text-transform: uppercase;
-   font-size: 11px;
+   font-size: 10px;
    font-weight: bold;
+   display: flex;
+   gap: 15px;
+ }
+.efecto svg{
+   fill: #f8b350;
+   background-color: #545454;
+   padding: 10px;
+   border-radius: 50%;
+   bottom: -10px;
+   position: relative;
 }
+
 .inferno h3 {
    text-transform: uppercase;
    font-size:22px;
@@ -382,6 +482,8 @@ html {
 .pequeño{
    font-size: 12px;
    color:#a8a8a8;
+   position: relative;
+   top:20px;
 }
 .fondo {
    background-color:#e0011a;
@@ -427,6 +529,29 @@ blockquote > span{
    text-align: center;
    width: 400px;
    flex: 0 0 385px;
+}
+.comillas svg{
+   width: 20px;
+   height: 20px;
+   background-color: #1a1d24;
+   border-radius: 50%;
+   padding: 8px;
+   fill:white;
+}
+.comi1 svg{
+   position: relative;
+   left: 27.6%;
+   transform: translateY(-350px);   
+}
+.comi2 svg{
+   position: relative;
+   left: 51.2%;
+   transform: translateY(-390px); 
+}
+.comi3 svg{
+   position: relative;
+   left: 74.5%;
+   transform: translateY(-430px);
 }
 .mosaico {
    background: white;
