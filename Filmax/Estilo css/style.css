@@ -54,54 +54,18 @@ html {
     gap: 20px;
     font-weight: bold;
  }
-.principal .home::after{
+.principal a::after{
    content:""; 
    width: 0%; 
-   height: 0px; 
-   background-color: red;
+   height: px; 
+   background-color:red;
    display: block;
    position: relative;
    top: 13px;
    transition-property: all;
    }
-   .features::after{
-   content:""; 
-   width: 0%; 
-   height: 0px; 
-   background-color: red;
-   display: block;
-   position: relative;
-   top: 13px;
-   }
-   .about::after{
-   content:""; 
-   width: 0%; 
-   height: 0px; 
-   background-color: red;
-   display: block;
-   position: relative;
-   top: 13px;
-   }
-   .news2::after{
-   content:""; 
-   width: 0%; 
-   height: 0px; 
-   background-color: red;
-   display: block;
-   position: relative;
-   top: 13px;
-   }
-   .contact2::after{
-   content:""; 
-   width: 0%; 
-   height: 0px; 
-   background-color: red;
-   display: block;
-   position: relative;
-   top: 13px;
-   }
- 
-.principal:hover .home::after{
+
+.principal li:hover a::after{
 content:""; 
 width: 100%; 
 height: 0.3px;
@@ -110,8 +74,6 @@ display: block;
 position: relative;
 top: 13px;
 }
-
-
 
  .redes {
     display: flex;

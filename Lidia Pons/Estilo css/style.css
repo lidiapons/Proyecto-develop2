@@ -4,17 +4,215 @@
         all: unset;  
         display: revert;
     }
+li {
+        list-style: none;
+}
+
+@import url("Estilo css/variables.css");
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+}
+.fondobg{
+    background-color: #008080;
+}
+.menu-principal{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin-inline: auto;
+    background-color: #008080;
+    }
+    ul {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 25px;
+        margin-right: 50px;
+        color:#f2fced;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    li{
+        width: 100px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    li:hover{
+        background-color: #f2fced;
+        color: #008080;
+    }
 .nombre{
     width: 100%;
     height: 100px;
-    background-color: black;
-    color: white;
     text-align: center;
     display: flex;
     align-items: center;
+    margin-left: 50px;
+    color:#f2fced;
+    text-transform: uppercase;
 }
 .nombre h1{
     font-size: 30px;
     text-transform: uppercase;
     font-weight: bold;
+    margin-left: 50px;
 }
+.principal-foto{
+    background-color: #008080;
+    }
+.principal-foto img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        filter: grayscale(100%);
+        box-shadow: 5px 2px 25px 8px;
+        }
+.principal-foto img:hover{
+    filter: grayscale(0%);
+}
+.principal-foto h1{
+            color:#f2fced;            
+        }
+        .correo{
+            position: relative;
+            bottom: -25px;
+            width: 350px;
+            height: 50px;
+            background-color: #f2fced;
+            border: #f2fced solid 3px;
+            box-shadow: 2px 0px 10px 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 1200px;
+            margin-inline: auto;
+
+        }
+        .correo:hover{
+            bottom: -15px;
+            position: relative;
+        }
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin-inline: auto;
+    height: 500px;
+    gap: 100px;
+
+}
+.Habilidades{
+    max-width: 1200px;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: center;
+    }
+.Habilidades h1{
+        position: relative;
+        top:30px;
+        font-size: 40px;
+        color: #008080;
+    }
+    img{
+        width: auto;
+        height: 150px;
+    }
+.Habilidades .grid{
+    max-width: 1200px;
+    margin-inline:auto;
+    top: 60px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.proyectos{
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-top: 100px;
+}
+.proyectos h1{
+    position: relative;
+    top:30px;
+    font-size: 40px;
+    color: #008080;
+}
+.grid-porfolio{
+    max-width: 1200px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 25px;
+    margin-top: 50px;
+}
+.grid-porfolio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 2px 2px 10px 2px;
+}
+.proyecto1{
+    grid-column: 1 /2;
+    grid-row: 1 / 3;
+}
+.proyecto2{
+    grid-column: 2 /4;
+    grid-row: 1 / 2;
+}
+.proyecto3{
+    grid-column: 4 /5;
+    grid-row: 1 / 3;
+}
+.proyecto4{
+    grid-column: 2 /3;
+    grid-row: 2 / 3;
+}
+.proyecto5{
+    grid-column: 3 /4;
+    grid-row: 2 / 3;
+}
+.proyectos img:hover{
+    transform: scale(1.05);
+}
+/* @keyframes comecocos{
+    0%{ opacity: 1;}
+    50% { opacity: 0;}
+    100% { opacity: 1;}
+}
+.comecocos{
+    animation: comecocos 2s infinite;
+    animation-fill-mode:both;
+} */
+.hobbies{
+    margin-top: 50px;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+.hobbies h1{
+    position: relative;
+    top:30px;
+    font-size: 40px;
+    color: #008080;
+    margin-top: 50px;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+.videojuegos{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    display: flex;
+    gap: 40px;
+}
+.videojuegos img{
+    width: 400px;
+    height: 300px;
+    box-shadow: 1px 1px 10px 1px;
+}
+/*@import url ("menu.css");
+@import url ("menu/sidebar.css");
