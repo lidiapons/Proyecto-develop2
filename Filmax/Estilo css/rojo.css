@@ -1,0 +1,73 @@
+
+.fondo {
+   background-color:#e0011a;
+}
+.rojo {
+   background-color:#e0011a;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1200px;
+   margin-inline: auto;
+   height: 600px;
+   color:white;
+   gap: 60px;
+   font-size:20px;
+   position: relative;
+   overflow: hidden;
+}
+.rojo img{
+   border-radius: 50% 50%;
+}
+
+blockquote {
+   text-align: center;
+}
+blockquote > q{
+   display: block;
+   margin-top: 35px;
+}
+blockquote > b{
+   display: block;
+   margin-top: 35px;
+   font-size: 13px;
+   font-weight: bold;
+   letter-spacing: 1px;
+}
+blockquote > span{
+   margin-top: 35px;
+   font-size: 11px;
+}
+.foto {
+   display: inline-block;
+   text-align: center;
+   width: 400px;
+   flex: 0 0 385px;
+   svg{
+    width: 20px;
+    height: 20px;
+    background-color: #1a1d24;
+    border-radius: 50%;
+    padding: 8px;
+    fill:white;
+    position: relative;
+    top: 15px;
+    left: -75px;
+   }
+}
+
+/* .comi1 svg{
+   position: absolute;
+   left: 27.6%;
+   transform: translateY(-350px);   
+}
+.comi2 svg{
+   position: relative;
+   left: 51.2%;
+   transform: translateY(-390px); 
+}
+.comi3 svg{
+   position: relative;
+   left: 74.5%;
+   transform: translateY(-430px);
+} */

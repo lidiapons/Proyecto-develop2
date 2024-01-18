@@ -1,0 +1,110 @@
+.inferno{
+    display: flex;
+    position: relative;
+ }
+ .in{
+    width: auto;
+    height: 600px;
+    background-image:linear-gradient(to top,
+    rgba(0,0,0,0.8),
+    transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-27-copyright-842x1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ }
+ .ban{
+    width: auto;
+    height: 600px;
+    background-image:linear-gradient(to top,
+    rgba(0,0,0,0.8),
+    transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-25-copyright-842x1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ }
+ .gla{
+    width: auto;
+    height: 600px;
+    background-image:linear-gradient(to top,
+    rgba(0,0,0,0.8),
+    transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-29-copyright-1024x682.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ }
+ .pir{
+    width: auto;
+    height: 600px;
+    background-image:linear-gradient(to top,
+    rgba(0,0,0,0.8),
+    transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-23-copyright-485x665.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ 
+ }
+ .inferno > article {
+    width: 25%;
+    position: relative;
+ }
+ .inferno article:hover .efecto{
+    bottom: -50px;
+    opacity: 1;
+ }
+ .inferno article:hover .textoinferno{
+    bottom:140px;
+ }
+    
+ .textoinferno {
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+    color:white;
+    transition: all 0.3s;
+ }
+ .efecto{
+    opacity: 0;
+    bottom: -80px;
+    position: relative;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+  }
+ .efecto svg{
+    fill: #f8b350;
+    background-color: #545454;
+    padding: 10px;
+    border-radius: 50%;
+    bottom: -10px;
+    position: relative;
+ }
+ 
+ .inferno h3 {
+    text-transform: uppercase;
+    font-size:22px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40px;
+ }
+ .inferno h3::before {
+    content:""; 
+    width: 40px; 
+    height: 1px; 
+    background-color: #f8b350;
+    display:block;
+    position: absolute;
+    top: -20px;
+ }
+ .pequeño{
+    font-size: 12px;
+    color:#a8a8a8;
+    position: relative;
+    top:20px;
+ }

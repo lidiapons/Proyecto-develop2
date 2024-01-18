@@ -24,8 +24,7 @@ body{
     max-width: 1200px;
     margin-inline: auto;
     background-color: #008080;
-    }
-    ul {
+    ul{
         display: flex;
         align-items:center;
         justify-content: center;
@@ -45,6 +44,7 @@ body{
         background-color: #f2fced;
         color: #008080;
     }
+}
 .nombre{
     width: 100%;
     height: 100px;

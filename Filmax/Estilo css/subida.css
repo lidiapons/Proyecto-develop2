@@ -1,0 +1,105 @@
+.menu {
+    background-color: #1a1d24;
+    margin-inline: auto;
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 80px;
+    align-items: center;
+    font-weight: bold
+    }
+    .most{
+       opacity: 0.5;
+    }
+    .best{
+       opacity: 0.5;
+    }
+ .most:hover{   
+    opacity: 1;
+ }
+ .best:hover{
+    opacity: 1;
+ }
+ .film {
+    display: flex;
+    max-width: 1200px;
+    gap: 20px;
+ }
+ .subida {
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-top: -120px;
+    position: relative;
+ }
+ 
+ .happy{
+    width: 280px;
+    height: 280px;
+    background-image:linear-gradient(to top,
+    rgba(0,0,0,0.8),
+    transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-20-copyright.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ 
+ }
+ .gotham{
+    width: 280px;
+    height: 280px;
+    background-image:linear-gradient(to top,
+    rgba(0,0,0,0.8),
+    transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-21-copyright.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ }
+ .homecoming{
+    width: 280px;
+    height: 280px;
+    background-image:linear-gradient(to top,
+    rgba(0,0,0,0.8),
+    transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-22-copyright.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ }
+ .stranger{
+    width: 280px;
+    height: 280px;
+    background-image:linear-gradient(to top,
+    rgba(0,0,0,0.8),
+    transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-17-copyright.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ }
+ .the{
+    width: 280px;
+    height: 280px;
+    background-image:linear-gradient(to top,
+    rgba(0,0,0,0.8),
+    transparent 85%),url(https://filmax.themerex.net/wp-content/uploads/2017/12/post-18-copyright.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ }
+ .texto {
+    position: absolute;
+    margin-top:230px;
+    margin-left: 15px;
+    color:rgb(255, 255, 255);
+ }
+ .texto h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+ .texto a {
+    font-size: 12px;
+ }
