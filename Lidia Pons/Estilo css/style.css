@@ -39,6 +39,7 @@ body{
         height: 50px;
         align-items: center;
         justify-content: center;
+        display: flex;
     }
     li:hover{
         background-color: #f2fced;
@@ -109,8 +110,6 @@ body{
 .Habilidades{
     max-width: 1200px;
     margin-inline: auto;
-    align-items: center;
-    justify-content: center;
     }
 .Habilidades h1{
         position: relative;
@@ -120,7 +119,7 @@ body{
     }
     img{
         width: auto;
-        height: 150px;
+        height: 100px;
     }
 .Habilidades .grid{
     max-width: 1200px;
@@ -130,7 +129,18 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    align-items: center;
+    justify-content: center;
 }
+ @keyframes comecocos{
+    0%{ opacity: 1;}
+    50% { opacity: 0;}
+    100% { opacity: 1;}
+}
+.Habilidades .grid img{
+    animation: comecocos 10s infinite;
+    animation-fill-mode:both;
+} 
 .proyectos{
     max-width: 1200px;
     margin-inline: auto;
@@ -214,5 +224,11 @@ body{
     height: 300px;
     box-shadow: 1px 1px 10px 1px;
 }
+.videojuegos button{
+    
+}
+
+
+
 /*@import url ("menu.css");
 @import url ("menu/sidebar.css");

@@ -10,6 +10,18 @@ html {
  li {
     list-style: none;
  }
+a{
+    cursor:pointer;
+}
+h3{
+    cursor:pointer;
+}
+.boton{
+    cursor:pointer;
+}
+li{
+    cursor: pointer;
+}
  img {
     max-width: 100%;
     height: auto;
@@ -218,6 +230,7 @@ html {
 .proximo img{
     width: 150px;
     height: 100px;
+    object-fit: cover;
 }
 .proximo img:hover{
     opacity: 0.5;
@@ -402,13 +415,12 @@ html {
     max-width: 1200px;
     margin-inline: auto;
     background-color: #1a1d24;
-    text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif; 
     font-size: 14px;
     font-weight: 700px;
     letter-spacing: 0.06em;
     position: relative;
-    margin-top: 150px;
+    margin-top: 200px;
  }
  .footer svg{
     width: 20px;
@@ -440,6 +452,7 @@ html {
  .footer a{
     color: #a8a8a8;
     line-height: 3em;
+    font-family: 'Lora', serif;
  }
  .movies{
     display: block;
@@ -470,8 +483,19 @@ html {
    right: 0;
    bottom: 550px;
  }
- input > src{
-    height: 20px;
-    width: 20px;
- 
+ .flechablanca form::after{
+    content:""; 
+    width: 250px; 
+    height: 1.1px; 
+    background-color:white ;
+    display:flex;
+    position: absolute; 
+    top: 48%;
  }
+.flechablanca svg{
+    width: 20px;
+    height: 25px;
+    left: 85px;
+    top:5px;
+    position: relative;
+}

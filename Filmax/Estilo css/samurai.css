@@ -17,6 +17,8 @@
     color:#a8a8a8;
     font-weight: bold;
     font-size: 13px;
+    font-family: "Roboto",sans-serif;
+    
  }
  .samurai1 h3 {
     text-transform: uppercase;
@@ -35,6 +37,7 @@
  .samurai p{
     color:#737373;
     margin:0.6em 0;
+    padding-right: 250px;
  }
  .samurai1 p::before{
        content:""; 

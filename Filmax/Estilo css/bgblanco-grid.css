@@ -41,17 +41,20 @@
  .textoitem {
     position: absolute;
     color:white;
+    font-family: 'Roboto', sans-serif,"Roboto Condensed";
  }
  .textoitem :first-child a{
     text-transform: uppercase;
     font-size: 13px;
     font-weight: bold;
     color:#f8b350;
+
  }
  .textoitem a{
     text-transform: uppercase;
     font-size: 25px;
     font-weight: bold;
+
  }
  .textoitem time{
     text-transform: uppercase;
@@ -103,6 +106,7 @@
     padding: 25px;
     margin-top: 130px;
  }
+
  .item-3{
     background-image: linear-gradient(
      rgba(0,0,0,0.4),

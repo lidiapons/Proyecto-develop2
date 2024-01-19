@@ -35,6 +35,18 @@
     gap: 20px;
     font-weight: bold;
  }
+ .twitter:hover{
+   fill: #3d73f1;
+ }
+ .facebook:hover{
+   fill:#0a3cb3;
+ }
+ .instagram:hover{
+   fill:#e6495b;
+ }
+ .youtube:hover{
+   fill:#770614;
+ }
 .principal a::after{
    content:""; 
    width: 0%; 
@@ -69,6 +81,7 @@ top: 13px;
     color: white;
     position: relative;
     padding-bottom: 200px;
+    font-family: "Roboto Condensed",sans-serif;
  }
  .layout h2 {
    font-size: 35px;
@@ -81,13 +94,20 @@ top: 13px;
    font-weight: bold;
    margin-bottom: 1.4em;
  }
- .news aside article h3{
+ .textonews h3:hover{
+   color: #a8a8a8;
+ }
+
+.news aside article h3{
    font-weight: bold
 }
 .news aside article time{
    font-size: 11px;
    color: #a8a8a8;
    letter-spacing: 1px;
+}
+.news aside article time:hover{
+   color: white;
 }
  .recent h3::after{
    content:""; 
@@ -127,6 +147,8 @@ top: 13px;
 .news .news-data p {
    color:#a8a8a8;
    margin: 1.6em 0;
+   font-family: "Roboto",sans-serif;
+   font-size: 15px;
 }
 .news .news-data a {
    text-transform: uppercase;

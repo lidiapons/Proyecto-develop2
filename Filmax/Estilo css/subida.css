@@ -44,7 +44,19 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
- 
+    svg{
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      fill: white;
+      padding: 10px;
+      border: 2px solid;
+      position: absolute;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+    }
+
  }
  .gotham{
     width: 280px;
@@ -95,11 +107,21 @@
     margin-top:230px;
     margin-left: 15px;
     color:rgb(255, 255, 255);
+    
  }
  .texto h3 {
     text-transform: uppercase;
     font-weight: bold;
+    font-family: "Roboto",sans-serif;
+ }
+ .texto h3:hover{
+   color:#a8a8a8;
  }
  .texto a {
     font-size: 12px;
+    font-family: "Roboto",sans-serif;
+    color: #a8a8a8;
+ }
+ .texto a:hover{
+   color: white;
  }

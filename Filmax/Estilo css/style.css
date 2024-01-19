@@ -18,3 +18,13 @@ html {
  main{
    background-color:#f2f2f2;
  }
+a{
+    cursor:pointer;
+}
+h3{
+    cursor:pointer;
+}
+.boton{
+    cursor:pointer;
+}
+
