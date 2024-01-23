@@ -1,0 +1,114 @@
+.footer{
+    background-color: #1a1d24;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    color: white;
+    fill: white;
+    max-width: 1200px;
+    margin-inline: auto;
+    background-color: #1a1d24;
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 14px;
+    font-weight: 700px;
+    letter-spacing: 0.06em;
+    position: relative;
+    margin-top: 200px;
+    svg{
+        width: 20px;
+        height: 20px;
+     }
+     p{
+        color: #a8a8a8;
+     }
+     h1{
+        font-weight: bold;
+        font-size: 15px;
+     }
+     h1::after{
+        content:""; 
+        width: 29px; 
+        height: 1.1px; 
+        background-color:#e0041d ;
+        display:inline;
+        position: absolute;
+        margin-top: 0.5em;
+        margin-left: 0.8em;
+     }
+     a{
+        color: #a8a8a8;
+        line-height: 3em;
+        font-family: 'Lora', serif;
+     }
+     div{
+        display: inline;
+        margin-top: 15%;
+     }
+ }
+ .logo{
+    display: block;
+ }
+ .logo p{
+    margin: 30px auto;
+ }
+ .movies{
+    display: block;
+ }
+ .newsletter .redes{
+    display: flex;
+    margin-top: 20%;
+ } 
+ .fondofooter{
+    background-color: #1a1d24;
+ }
+ .cosas svg{
+    height: 20px;
+    width: 20px;
+    display:block;
+    padding: 20px;
+    background-color: #e0041d;
+    background-size: 30px;
+    margin-top: 4px;
+ 
+ } 
+ .cosas{
+   position: fixed;
+   right: 0;
+   bottom: 550px;
+ }
+ .flechablanca form::after{
+    content:""; 
+    width: 250px; 
+    height: 1.1px; 
+    background-color:white ;
+    display:flex;
+    position: absolute; 
+    top: 48%;
+ }
+.flechablanca svg{
+    width: 20px;
+    height: 25px;
+    left: 85px;
+    top:5px;
+    position: relative;
+}
+.fondotwitter{
+   background-color: #3d73f1;
+   border-radius: 50%;
+   padding: 8px;
+}
+.fondoface{
+   background-color: #0a3cb3;
+   border-radius: 50%;
+   padding: 8px;
+}
+.fondoinsta{
+   background-color: #e6495b;
+   border-radius: 50%;
+   padding: 8px;
+}
+.fondoyou{
+   background-color: #770614;
+   border-radius: 50%;
+   padding: 8px;
+}

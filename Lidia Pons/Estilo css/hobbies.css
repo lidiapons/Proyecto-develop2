@@ -1,0 +1,48 @@
+
+.hobbies{
+    margin-top: 50px;
+    max-width: 1200px;
+    margin-inline: auto;
+    h1{
+        position: relative;
+        top:30px;
+        font-size: 40px;
+        color: #008080;
+        margin-top: 50px;
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+} 
+.videojuegos{
+    margin-top: 50px;
+    margin-bottom: 200px;
+    display: flex;
+    gap: 40px;
+    img{
+        width: 400px;
+        height: 300px;
+        box-shadow: 1px 1px 10px 1px;
+        opacity: 0.4;
+    }
+    div{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button{
+        width: 180px;
+        height: 50px;        background-color:transparent ;
+        text-align: center;
+        color: black;
+        position: absolute;
+        padding: 20px;
+        box-shadow: 0px 2px 15px 5px;
+    }
+}
+.videojuegos div:hover img{
+    opacity: 1;
+}
+.videojuegos div:hover button{
+    opacity: 0;
+}

@@ -1,0 +1,133 @@
+.menu-principal{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin-inline: auto;
+    background-color: #008080;
+    ul{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        gap: 25px;
+        margin-right: 50px;
+        color:#f2fced;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    li{
+        width: 100px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        box-shadow: 0.5px 0.5px 2px;
+    }
+    li:hover{
+        background-color: #f2fced;
+        color: #008080;
+    }
+}
+.nombre{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    color:#f2fced;
+    text-transform: uppercase;
+    h1{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+}
+.principal-foto{
+    background-color: #008080;
+    img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        filter: grayscale(100%);
+        box-shadow: 5px 2px 25px 8px;
+        }
+        img:hover{
+            filter: grayscale(0%);
+        }
+        h1{
+            color:#f2fced;            
+        }
+        .correo{
+            position: relative;
+            bottom: -25px;
+            width: 350px;
+            height: 50px;
+            background-color: #f2fced;
+            border: #f2fced solid 3px;
+            box-shadow: 2px 0px 10px 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 1200px;
+            margin-inline: auto;
+
+        }
+        .correo:hover{
+            bottom: -15px;
+            position: relative;
+        }
+    }
+
+.circulo{
+    border: #f2fced3b solid 3px;
+    padding: 80px;
+    border-radius: 50%;
+    position: relative;
+    svg{
+        width: 50px;
+        height: 50px;
+        fill: #f2fcedcc;
+    }
+}
+.uno{
+    position: absolute;
+    left: 0;
+    top:50%;
+    transform: translateX(-50%);
+    background-color: #008080;
+    padding: 10px;
+}
+.dos{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(50%);
+    background-color: #008080;
+    padding: 10px;
+}
+.tres{
+    position: absolute;
+    right: 50%;
+    top: -8%;
+    transform: translateX(50%);
+    background-color: #008080;
+    padding: 10px;
+}
+.cuatro{
+    position: absolute;
+    right: 50%;
+    bottom: -10%;
+    transform: translateX(50%);
+    background-color: #008080;
+    padding: 10px;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin-inline: auto;
+    height: 500px;
+    gap: 100px;
+}

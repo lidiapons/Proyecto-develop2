@@ -10,18 +10,18 @@
     align-items: center;
     font-weight: bold
     }
-    .most{
-       opacity: 0.5;
-    }
-    .best{
-       opacity: 0.5;
-    }
- .most:hover{   
-    opacity: 1;
- }
- .best:hover{
-    opacity: 1;
- }
+.most{
+   opacity: 0.5;
+   &:hover{   
+      opacity: 1;
+  }
+}
+.best{
+   opacity: 0.5;
+   &:hover{
+      opacity: 1;
+   }
+}
  .film {
     display: flex;
     max-width: 1200px;
@@ -45,7 +45,6 @@
     margin-top: -120px;
     position: relative;
  }
- 
  .happy{
     width: 280px;
     height: 280px;
@@ -56,8 +55,8 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-      svg:hover{
-      border: 2px solid white;
+   svg:hover{
+   border: 2px solid white;
    }
  }
  .gotham{
@@ -121,21 +120,20 @@
     margin-top:230px;
     margin-left: 15px;
     color:rgb(255, 255, 255);
-    
- }
- .texto h3 {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: "Roboto",sans-serif;
- }
- .texto h3:hover{
-   color:#a8a8a8;
- }
- .texto a {
-    font-size: 12px;
-    font-family: "Roboto",sans-serif;
-    color: #a8a8a8;
- }
- .texto a:hover{
-   color: white;
+   h3{
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: "Roboto",sans-serif;
+   }
+   h3:hover{
+      color:#a8a8a8;
+    }
+   a {
+      font-size: 12px;
+      font-family: "Roboto",sans-serif;
+      color: #a8a8a8;
+   }
+   a:hover{
+      color: white;
+    }
  }

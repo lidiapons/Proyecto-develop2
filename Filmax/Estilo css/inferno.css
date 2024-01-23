@@ -1,6 +1,33 @@
 .inferno{
     display: flex;
     position: relative;
+    > article {
+      width: 25%;
+      position: relative;
+   }
+   article:hover .efecto{
+      bottom: -50px;
+      opacity: 1;
+   }
+   article:hover .textoinferno{
+      bottom:140px;
+   }
+   h3 {
+      text-transform: uppercase;
+      font-size:22px;
+      font-weight: bold;
+      position: absolute;
+      bottom: 40px;
+   }
+   h3::before {
+      content:""; 
+      width: 40px; 
+      height: 1px; 
+      background-color: #f8b350;
+      display:block;
+      position: absolute;
+      top: -20px;
+   }
  }
  .in{
     width: auto;
@@ -45,20 +72,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
- 
  }
- .inferno > article {
-    width: 25%;
-    position: relative;
- }
- .inferno article:hover .efecto{
-    bottom: -50px;
-    opacity: 1;
- }
- .inferno article:hover .textoinferno{
-    bottom:140px;
- }
-    
  .textoinferno {
     position: absolute;
     bottom: 90px;
@@ -73,36 +87,19 @@
     position: relative;
     transition: all 0.5s;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: bold;
     display: flex;
     gap: 15px;
+    svg{
+      fill: #f8b350;
+      background-color: #545454;
+      padding: 10px;
+      border-radius: 50%;
+      bottom: -10px;
+      position: relative;
+   }
   }
- .efecto svg{
-    fill: #f8b350;
-    background-color: #545454;
-    padding: 10px;
-    border-radius: 50%;
-    bottom: -10px;
-    position: relative;
- }
- 
- .inferno h3 {
-    text-transform: uppercase;
-    font-size:22px;
-    font-weight: bold;
-    position: absolute;
-    bottom: 40px;
- }
- .inferno h3::before {
-    content:""; 
-    width: 40px; 
-    height: 1px; 
-    background-color: #f8b350;
-    display:block;
-    position: absolute;
-    top: -20px;
- }
  .pequeño{
     font-size: 12px;
     color:#a8a8a8;

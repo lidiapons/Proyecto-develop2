@@ -13,6 +13,15 @@
     font-size: 14px;
     font-weight: 700px;
     letter-spacing: 0.06em;
+   svg {
+      width: 20px;
+      height: 20px;
+   }
+   ul{
+      display: flex;
+      gap: 20px;
+      font-weight: bold;
+   }
  }
  .sticky{
    position: sticky;
@@ -21,19 +30,15 @@
  }
  .layout {
     background-color: #1a1d24;
-
+    h2 {
+      font-size: 35px;
+      font-weight: 700px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
  }
  .barrita {
    color: #a8a8a8;
- }
- .header svg {
-    width: 20px;
-    height: 20px;
- }
- .header ul{
-    display: flex;
-    gap: 20px;
-    font-weight: bold;
  }
  .twitter:hover{
    fill: #3d73f1;
@@ -56,8 +61,7 @@
    position: relative;
    top: 13px;
    transition-property: all;
-   }
-
+}
 .principal li:hover a::after{
 content:""; 
 width: 100%; 
@@ -67,12 +71,11 @@ display: block;
 position: relative;
 top: 13px;
 }
-
- .redes {
+.redes {
     display: flex;
     gap:20px
  }
- .news {
+.news {
     background-color: #1a1d24;
     max-width: 1200px;
     margin-inline: auto;
@@ -82,80 +85,73 @@ top: 13px;
     position: relative;
     padding-bottom: 200px;
     font-family: "Roboto Condensed",sans-serif;
+    > article {
+      width: 100%;
+      height: 600px;
+      background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/top-promo.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  .news-data {
+   position: absolute;
+   right: 50px;
+   bottom: 200px;
+   max-width: 400px;
+   padding: 25px 0 0 25px;
+   background-color: #1a1d24;
+   }
+   .news-data p {
+      color:#a8a8a8;
+      margin: 1.6em 0;
+      font-family: "Roboto",sans-serif;
+      font-size: 15px;
+   }
+   .news-data a {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px;
+   }
+   aside article {
+      display: flex;
+      gap: 25px;
+      margin-bottom: 25px;
+  }
+   aside article:last-child {
+      margin-bottom: 0px;
+   }
+   aside article h3{
+      font-weight: bold
+   }
+   aside article time{
+      font-size: 11px;
+      color: #a8a8a8;
+      letter-spacing: 1px;
+   }
+   aside article time:hover{
+      color: white;
+   }
+   aside article time:hover{
+      color: white;
+   }
  }
- .layout h2 {
-   font-size: 35px;
-   font-weight: 700px;
-   text-transform: uppercase;
-   font-weight: bold;
- }
- .recent {
+.recent {
    text-transform: uppercase;
    font-weight: bold;
    margin-bottom: 1.4em;
+   h3::after{
+      content:""; 
+      width: 30px; 
+      height: 1px; 
+      background-color: red;
+      display: inline-block;
+      margin: 5px 0;
+      margin-left: 0.8em;
+    }
  }
- .textonews h3:hover{
+.textonews h3:hover{
    color: #a8a8a8;
  }
-
-.news aside article h3{
-   font-weight: bold
-}
-.news aside article time{
-   font-size: 11px;
-   color: #a8a8a8;
-   letter-spacing: 1px;
-}
-.news aside article time:hover{
-   color: white;
-}
- .recent h3::after{
-   content:""; 
-   width: 30px; 
-   height: 1px; 
-   background-color: red;
-   display: inline-block;
-   margin: 5px 0;
-   margin-left: 0.8em;
-
- }
-.news > article {
-    width: 100%;
-    height: 600px;
-    background-image: url(https://filmax.themerex.net/wp-content/uploads/2018/01/top-promo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.news aside article {
-    display: flex;
-    gap: 25px;
-    margin-bottom: 25px;
-}
-.news aside article:last-child {
-    margin-bottom: 0px;
-}
-
-.news .news-data {
-    position: absolute;
-    right: 50px;
-    bottom: 200px;
-    max-width: 400px;
-    padding: 25px 0 0 25px;
-    background-color: #1a1d24;
-}
-.news .news-data p {
-   color:#a8a8a8;
-   margin: 1.6em 0;
-   font-family: "Roboto",sans-serif;
-   font-size: 15px;
-}
-.news .news-data a {
-   text-transform: uppercase;
-   font-weight: bold;
-   font-size: 13px;
-}
-
 .flecha svg{
    margin-left: 10px;
    fill: red;

@@ -6,31 +6,29 @@
     position: relative;
     display: flex; 
     flex-flow: column;
- 
- }
- .mosaico h1{
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 140px;
-    font-family: "Roboto Condensed",sans-serif;
- }
- .mosaico p{
-    color: #737373;
-    margin: 20px 0px 40px 0px;
-    font-family: "Lora",serif;
-    letter-spacing: 0.5px;
- 
- }
- .mosaico h1::before{
-    content:""; 
-    width: 50px; 
-    height: 1.5px; 
-    background-color:#e0041d ;
-    display:block;
-    position: absolute;
-    top: 110px;
- 
+    h1{
+      font-size: 40px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 140px;
+      font-family: "Roboto Condensed",sans-serif;
+   }
+   p{
+      color: #737373;
+      margin: 20px 0px 40px 0px;
+      font-family: "Lora",serif;
+      letter-spacing: 0.5px;
+   
+   }
+   h1::before{
+      content:""; 
+      width: 50px; 
+      height: 1.5px; 
+      background-color:#e0041d ;
+      display:block;
+      position: absolute;
+      top: 110px;
+   }
  }
  .blanco {
     background-color: white;
@@ -42,19 +40,17 @@
     position: absolute;
     color:white;
     font-family: 'Roboto', sans-serif,"Roboto Condensed";
+    a{
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bold;
+   }
  }
  .textoitem :first-child a{
     text-transform: uppercase;
     font-size: 13px;
     font-weight: bold;
     color:#f8b350;
-
- }
- .textoitem a{
-    text-transform: uppercase;
-    font-size: 25px;
-    font-weight: bold;
-
  }
  .textoitem time{
     text-transform: uppercase;
@@ -82,12 +78,10 @@
     grid-row: 1 / 3;
     position: relative;
  }
- 
  .item-1 .textoitem{
     position: absolute;
     padding: 25px;
     margin-top: 480px;
- 
  }
  .item-2{
     background-image: linear-gradient(
@@ -106,7 +100,6 @@
     padding: 25px;
     margin-top: 130px;
  }
-
  .item-3{
     background-image: linear-gradient(
      rgba(0,0,0,0.4),
