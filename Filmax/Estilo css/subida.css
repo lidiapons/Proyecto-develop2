@@ -26,6 +26,18 @@
     display: flex;
     max-width: 1200px;
     gap: 20px;
+    svg{
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      fill: white;
+      padding: 10px;
+      border: 2px solid rgba(252, 252, 252, 0.164);
+      position: absolute;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+    }
  }
  .subida {
     max-width: 1200px;
@@ -44,19 +56,9 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    svg{
-      width: 25px;
-      height: 25px;
-      border-radius: 50%;
-      fill: white;
-      padding: 10px;
-      border: 2px solid;
-      position: absolute;
-      left: 50%;
-      top:50%;
-      transform: translate(-50%, -50%);
-    }
-
+      svg:hover{
+      border: 2px solid white;
+   }
  }
  .gotham{
     width: 280px;
@@ -68,6 +70,9 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    svg:hover{
+      border: 2px solid white;
+   }
  }
  .homecoming{
     width: 280px;
@@ -79,6 +84,9 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    svg:hover{
+      border: 2px solid white;
+   }
  }
  .stranger{
     width: 280px;
@@ -90,6 +98,9 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    svg:hover{
+      border: 2px solid white;
+   }
  }
  .the{
     width: 280px;
@@ -101,6 +112,9 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    svg:hover{
+      border: 2px solid white;
+   }
  }
  .texto {
     position: absolute;
